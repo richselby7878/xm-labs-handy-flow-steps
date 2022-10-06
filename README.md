@@ -94,7 +94,8 @@ This step lets you restore a string from the Encrypt step, provided the same Sal
 3. OPTIONAL. By default, only the importing user has permission to use and modify the custom steps within the workflow. We recommend broadening permissions to allow all those with the Developer use and/or edit the flow steps, as they are useful in all sorts of situations. To do this, shift to the FLOW DESIGNER tab, just to the right of FORMS. Open the Run Flow Step flow canvas. 
 	<kbd>  <img src="/media/run_flow_step_canvas.png" width="900"> </kbd>
 	
-4. To the right of the screen on the Palette, highlight the CUSTOM tab. Navigate to each flow step in turn. Click the gear icon then <b>Usage Permissions</b>. In the pop-up window, grant ACCESS to other users/roles as required, e.g. select the Developer role and grant permission to Edit Step. 
+4. To the right of the screen on the Palette, highlight the CUSTOM tab. Navigate to each flow step in turn. Click the gear icon then <b>Usage Permissions</b>. In the pop-up window, grant ACCESS to other users/roles as required, e.g. select the Developer role and grant permission to Edit Step.
+5.  
 	<kbd>  <img src="/media/step_usage_permissions.png" width="500"> </kbd>
 
 
