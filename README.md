@@ -15,12 +15,12 @@ The steps come packaged in a workflow with a tester form called Run Flow Step. Y
 * xMatters account - If you don't have one, [get one for free](https://www.xmatters.com/free)!
 
 # Files
-* [HandyFlowStesps.zip](HandyFlowSteps.zip) - xMatters workflow containing 2 forms, 1 flow canvas and 10 custom flow steps.
+* [HandyFlowSteps.zip](HandyFlowSteps.zip) - xMatters workflow containing 2 forms, 1 flow canvas and 10 custom flow steps.
 
 # Custom Flow Steps
 The custom flow steps are...
 *	Match Substring (Contains)
-	<kbd>  <img src="/media/match_substring.png" width="750"> </kbd>
+	<kbd>  <img src="/media/match_substring.png" width="250"> </kbd>
 Use this step to see if a short string (Needle) is contained in a longer string (Haystack). Case-sensitivity is controlled via the Case Sensitive input. The step returns either true or false.
 
 *	Sleep
@@ -67,7 +67,7 @@ This step lets you restore a string from the Encrypt step, provided the same Sal
 	<kbd>  <img src="/media/handy_flow_steps.png" width="750"> </kbd>
 	
 2. OPTIONAL. Navigate into the new workflow. You will see a list of two forms. You will need to set Sender Permissions on the upper form, Run Flow Step. To do this, click the left most button (says Web UI) and then Sender Permissions. Add the users or roles who can use the form. We recommend allowing all those with Full Access User and Developer roles to use the form. Do the same for the lower form
-	<kbd>  <img src="/media/sender_permissions.png" width="500"> </kbd>
+	<kbd>  <img src="/media/sender_permissions.png" width="350"> </kbd>
 	
 3. OPTIONAL. By default, only the importing user has permission to use and modify the custom steps within the workflow. We recommend broadening permissions to allow all those with the Developer use and/or edit the flow steps, as they are useful in all sorts of situations. To do this, shift to the FLOW DESIGNER tab, just to the right of FORMS. Open the Run Flow Step flow canvas. 
 	<kbd>  <img src="/media/run_flow_step_canvas.png" width="750"> </kbd>
@@ -78,7 +78,7 @@ This step lets you restore a string from the Encrypt step, provided the same Sal
 
 # Testing
 You can try out each new custom step via the Run Flow Step messaging form.   Navigate to Messaging > Handy Flow Steps > Run Flow Step. Choose which step to run in the first dropdown.  Each step has it’s own corresponding form section with some demo values in it. You can use the demo values supplied or over-type. 
-<kbd>  <img src="/media/run_flow_step_form.png" width="500"> </kbd>
+<kbd>  <img src="/media/run_flow_step_form.png" width="750"> </kbd>
 	
 At the bottom of the form, you can set yourself as a Recipient. When you click Send Message, you will get an initial email notification confirming the flow has been launched. A short while later, a second email will arrive with the step’s output values clearly shown.
 
