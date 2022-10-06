@@ -77,7 +77,9 @@ This step lets you Encrypt a string using a Salt value.
 
 	<kbd>  <img src="/media/decrypt.png" width="250"> </kbd>
 
-This step lets you restore a string from the Encrypt step, provided the same Salt is used. N.B. Encrypt-decrypt is by no means strong encryption. It's use is more for obfuscation.
+This step lets you restore a string from the Encrypt step, provided the same Salt is used. 
+
+<i>N.B. Encrypt-decrypt is by no means strong encryption. It's use is more for obfuscation.</i>
 
 
 
