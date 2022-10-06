@@ -100,7 +100,8 @@ This step lets you restore a string from the Encrypt step, provided the same Sal
 
 
 # Testing
-You can try out each new custom step via the Run Flow Step messaging form.   Navigate to Messaging > Handy Flow Steps > Run Flow Step. Choose which step to run in the first dropdown.  Each step has it’s own corresponding form section with some demo values in it. You can use the demo values supplied or over-type. 
+You can try out each new custom step via the Run Flow Step messaging form.   Navigate to Messaging > Handy Flow Steps > Run Flow Step. Choose which step to run in the first dropdown.  Each step has it’s own corresponding form section with some demo values in it. You can use the demo values supplied or over-type with your own test values. 
+
 <kbd>  <img src="/media/run_flow_step_form.png" width="900"> </kbd>
 	
 At the bottom of the form, you can set yourself as a Recipient. When you click Send Message, you will get an initial email notification confirming the flow has been launched. A short while later, a second email will arrive with the step’s output values clearly shown.
@@ -109,4 +110,4 @@ At the bottom of the form, you can set yourself as a Recipient. When you click S
 # Troubleshooting
 Navigate to Handy Flow Steps > Flow Designer tab > Run Flow Step canvas. You can see the canvas used to select each step based on an initial Switch block. Each custom step outputs log notes. If a step fails, you can inspect the Activity Log and inspect the log messages.
 
-<kbd>  <img src="/media/run_flow_step_activity_log.png" width="750"> </kbd>
+<kbd>  <img src="/media/run_flow_step_activity_log.png" width="900"> </kbd>
