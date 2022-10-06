@@ -20,7 +20,9 @@ The steps come packaged in a workflow with a tester form called Run Flow Step. Y
 # Custom Flow Steps
 The custom flow steps are...
 *	Match Substring (Contains)
+
 	<kbd>  <img src="/media/match_substring.png" width="250"> </kbd>
+	
 Use this step to see if a short string (Needle) is contained in a longer string (Haystack). Case-sensitivity is controlled via the Case Sensitive input. The step returns either true or false.
 
 *	Sleep
