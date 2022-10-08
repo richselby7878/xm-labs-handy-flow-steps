@@ -1,7 +1,7 @@
 # Handy Flow Steps
 A collection of 10 custom flow steps for use with xMatters or Everbridge Flow Designer.  Each step could be of use in a variety of custom flows; none are integration specific. The steps mostly involve string manipulation, e.g. splitting and truncating. There's also a Sleep step.
 
-The steps come packaged in a workflow with a tester form called Run Flow Step. You can try out each step and view the output via a UI form.
+The steps come packaged in a workflow with a tester form called Run Flow Step. You can try out each step via a UI messaging form and view the output in an alert notification.
 
 ---------
 <kbd>
