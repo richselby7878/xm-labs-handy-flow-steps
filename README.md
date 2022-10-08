@@ -19,61 +19,61 @@ The steps come packaged in a workflow with a tester form called Run Flow Step. Y
 
 # Custom Flow Steps
 The custom flow steps are...
-*	Match Substring (Contains)
+*	**Match Substring** (Contains)
 
 	<kbd>  <img src="/media/match_substring.png" width="250"> </kbd>
 	
 Use this step to see if a short string (Needle) is contained in a longer string (Haystack). Case-sensitivity is controlled via the Case Sensitive input. The step returns either true or false.
 
-*	Sleep
+*	**Sleep**
 
 	<kbd>  <img src="/media/sleep.png" width="250"> </kbd>
 	
 Pause execution for a few seconds mid-flow. The step outputs the number of milliseconds slept. N.B. for all flows running in the xMatters Cloud, should any individual flow execution last longer than 60 seconds, xMatters will terminate the job with a status of Canceled. However, this maximum execution time limit does not apply if the step is running on an xMatters Agent. 
 
-*	Reverse
+*	**Reverse**
 
 	<kbd>  <img src="/media/reverse.png" width="250"> </kbd>
 
 This step reverses a string. Simple as that.
 
-*	Concat
+*	**Concat**
 
 	<kbd>  <img src="/media/concat.png" width="250"> </kbd>
 
 This step joins up to five smaller strings together with an optional glue characters in between. The output is a string. 
 
-*	Split
+*	**Split**
 
 	<kbd>  <img src="/media/split.png" width="250"> </kbd>
 
 This step splits a string into two parts using a separator string. The output is two smaller strings. 
 
-*	Is Field Populated
+*	**Is Field Populated**
 
 	<kbd>  <img src="/media/is_field_populated.png" width="250"> </kbd>
 
 The step takes the output of any field as an input and returns true if it has a value, false otherwise. A numeric 0 is considered true. The Run Flow Step tester flow runs 5 of these steps in sequence, testing different field types. This is useful because it can be combined with a Switch flow step, switching on either true or false. Switches cannot test for blank input.  
 
-*	Strip Prefix
+*	**Strip Prefix**
 
 	<kbd>  <img src="/media/strip_prefix.png" width="250"> </kbd>
 
 This step removes a prefix from a string. The output is shorter string.
 
-*	Truncate
+*	**Truncate**
 
 	<kbd>  <img src="/media/truncate.png" width="250"> </kbd>
 
 This step chops a string down to size. Input options allow you to specify a clean-word break and whether to include an elipses (...) at the end to indicate the text was truncated. This stops the chopped string from appearing inelegant when passing to work notes etc. As well as the truncated string, the step outputs a true/false flag called isTruncted, and a count of the number of characters removed.
 
-*	Enrcypt
+*	**Encrypt**
 
 	<kbd>  <img src="/media/encrypt.png" width="250"> </kbd>
 
 This step lets you Encrypt a string using a Salt value. 
 
-*	Decrypt
+*	**Decrypt**
 
 	<kbd>  <img src="/media/decrypt.png" width="250"> </kbd>
 
