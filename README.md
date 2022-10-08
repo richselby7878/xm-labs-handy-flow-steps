@@ -57,7 +57,9 @@ N.B. No actual banana is harmed during the splitting process.
 
 	<kbd>  <img src="/media/is_field_populated.png" width="250"> </kbd>
 
-The step takes the output of any field as an input and returns true if it has a value, false otherwise. A numeric 0 is considered true. The Run Flow Step tester flow runs 5 of these steps in sequence, testing different field types. This is useful because it can be combined with a Switch flow step, switching on either true or false. Switches cannot test for blank input.  
+The step takes the output of any field as an input and returns true if it has a value, false otherwise. A numeric 0 is considered true. This is useful because the output can be passed to a subsequent Switch flow step, switching on either true or false. Switches cannot test for blank input.
+
+N.B. The Run Flow Step tester UI form runs 5 of these steps in sequence, testing different field types.
 
 *	**Strip Prefix**
 
