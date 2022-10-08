@@ -117,6 +117,8 @@ At the bottom of the form, you can set yourself as a Recipient. When you click S
 
 
 # Troubleshooting
-Navigate to Handy Flow Steps > Flow Designer tab > Run Flow Step canvas. You can see the canvas used to select each step based on an initial Switch block. Each custom step outputs log notes. If a step fails, you can inspect the Activity Log and inspect the log messages.
+Navigate to Handy Flow Steps > Flow Designer tab > Run Flow Step canvas. You can see how the correct step is selected based on an initial Switch block. Each custom step outputs log notes. If a step fails, you can open the **Activity Log** and inspect the log messages.
 
 <kbd>  <img src="/media/run_flow_step_activity_log.png" width="900"> </kbd>
+
+You are also able to view the source of each step by opening it from the CUSTOM steps palette and selecting the SCRIPT tab. As with all xMatters custom steps, the scripting language is Javascript.
