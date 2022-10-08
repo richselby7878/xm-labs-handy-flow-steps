@@ -92,7 +92,7 @@ This step lets you restore a string from the Encrypt step, provided the same Sal
 
 # Installation
 1. Log into xMatters as a user with either the Developer or Full Access User role. Navigate to Workflows, click the Import button on the top right and import the [HandyFlowSteps.zip](HandyFlowSteps.zip) file. This is what you will see in the list of workflows.
-	<kbd>  <img src="/media/handy_flow_steps.png" width="750"> </kbd>
+	<kbd>  <img src="/media/handy_flow_steps.png" width="900"> </kbd>
 	
 2. Navigate into the new workflow. You will see a list of two forms. Set Sender Permissions on the upper form, Run Flow Step. To do this, click the left most button. Ensure the form is accessible by selecting <b>Web UI</b> and then <b>Sender Permissions</b>. Add users or roles who can access the form. We recommend allowing all those with _Full Access User_ and _Developer_ roles to use the form. 
 
@@ -103,13 +103,13 @@ The lower form, **Results**, is triggered by the upper form. To deploy it, choos
 3. OPTIONAL. By default, only the user who imports the workflow has permission to use and modify the custom steps within the workflow. We recommend broadening permissions to allow all those with the Developer role to use and/or edit the flow steps. To do this, highlight the FLOW DESIGNER just to the right of FORMS. Open the Run Flow Step flow canvas. 
 	<kbd>  <img src="/media/run_flow_step_canvas.png" width="900"> </kbd>
 	
-4. To the right of the screen on the Palette, highlight the CUSTOM tab. Navigate to each flow step in turn. Click the gear icon then <b>Usage Permissions</b>. In the pop-up window, grant ACCESS to other users/roles as required, e.g. select the Developer role and grant permission to Edit Step.
+4. To the right of the screen on the Palette, highlight the CUSTOM tab. Navigate to each new flow step in turn. Click the gear icon then <b>Usage Permissions</b>. In the pop-up window, grant ACCESS to other users/roles as required, e.g. select the Developer role and grant permission to Edit Step.
 
 	<kbd>  <img src="/media/step_usage_permissions.png" width="500"> </kbd>
 
 
 # Testing
-You can try out each new custom step via the Run Flow Step messaging form.   Navigate to Messaging > Handy Flow Steps > Run Flow Step. Choose which step to run in the first dropdown.  Each step has it’s own corresponding form section with some demo values in it. You can use the demo values supplied or over-type with your own test values. 
+You can try out each new custom step via the **Run Flow Step** messaging form.   Navigate to Messaging > Handy Flow Steps > Run Flow Step. Choose which step to run in the first dropdown.  Each step has it’s own corresponding form section with some demo values in it. You can use the demo values supplied or over-type with your own test values. 
 
 <kbd>  <img src="/media/run_flow_step_form.png" width="900"> </kbd>
 	
