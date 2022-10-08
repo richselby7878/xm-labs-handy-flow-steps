@@ -65,7 +65,7 @@ N.B. The Run Flow Step tester UI form runs 5 of these steps in sequence, testing
 
 	<kbd>  <img src="/media/strip_prefix.png" width="250"> </kbd>
 
-This step removes a prefix from a string. The output is shorter string.
+This step removes a prefix from a string. The output is shorter string. An example of its use is extracting an Incident number from a Slack channel name.
 
 *	**Truncate**
 
