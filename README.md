@@ -43,7 +43,7 @@ This step reverses a string. Simple as that.
 
 	<kbd>  <img src="/media/concat.png" width="250"> </kbd>
 
-This step joins up to five smaller strings together with an optional glue characters in between. The output is a string. 
+This step joins up to five smaller strings together with an optional glue character (or characters) in-between. The output is a longer string. 
 
 *	**Split**
 
