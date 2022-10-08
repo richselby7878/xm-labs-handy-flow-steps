@@ -85,7 +85,7 @@ This step lets you Encrypt a string using a Salt value.
 
 This step lets you restore a string from the Encrypt step, provided the same Salt is used. 
 
-<i>N.B. Encrypt-decrypt is by no means strong encryption. It's use is more for obfuscation.</i>
+<i>N.B. Encrypt-decrypt is by no means strong encryption. It's use is more for obfuscation. You can encrypt a value, store it in a workflow constant, then decrypt before using it. This prevents sensitive information from being readily displayed in plain text.</i>
 
 
 
