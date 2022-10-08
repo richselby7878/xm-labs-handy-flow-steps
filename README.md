@@ -121,4 +121,4 @@ Navigate to Handy Flow Steps > Flow Designer tab > Run Flow Step canvas. You can
 
 <kbd>  <img src="/media/run_flow_step_activity_log.png" width="900"> </kbd>
 
-You are also able to view the source of each step by opening it from the CUSTOM steps palette and selecting the SCRIPT tab. As with all xMatters custom steps, the scripting language is Javascript.
+You are also able to view the source of each step by opening it from the CUSTOM steps palette and selecting the step's SCRIPT tab. As with all xMatters custom steps, the scripting language is JavaScript running in the xMatters cloud, rather than JavaScript.
