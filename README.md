@@ -29,7 +29,9 @@ Use this step to see if a short string (Needle) is contained in a longer string 
 
 	<kbd>  <img src="/media/sleep.png" width="250"> </kbd>
 	
-Pause execution for a few seconds mid-flow. The step outputs the number of milliseconds slept. N.B. for all flows running in the xMatters Cloud, should any individual flow execution last longer than 60 seconds, xMatters will terminate the job with a status of Canceled. However, this maximum execution time limit does not apply if the step is running on an xMatters Agent. 
+Pause execution for a few seconds mid-flow. The step outputs the number of milliseconds slept. 
+
+N.B. for all flows running in the xMatters Cloud, should any individual flow execution last longer than 60 seconds, xMatters will terminate the job with a status of Canceled. However, this maximum execution time does not apply if the step is running on an xMatters Agent. 
 
 *	**Reverse**
 
