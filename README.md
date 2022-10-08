@@ -94,8 +94,11 @@ This step lets you restore a string from the Encrypt step, provided the same Sal
 1. Log into xMatters as a user with either the Developer or Full Access User role. Navigate to Workflows, click the Import button on the top right and import the [HandyFlowSteps.zip](HandyFlowSteps.zip) file. This is what you will see in the list of workflows.
 	<kbd>  <img src="/media/handy_flow_steps.png" width="750"> </kbd>
 	
-2. Navigate into the new workflow. You will see a list of two forms. Set Sender Permissions on the upper form, Run Flow Step. To do this, click the left most button. Ensure the form is accessible by selecting <b>Web UI</b> and then <b>Sender Permissions</b>. Add users or roles who can access the form. We recommend allowing all those with _Full Access User_ and _Developer_ roles to use the form. The lower form, **Results**, is triggered by the upper form. To deploy it, choose _Enable For Web Service_.
+2. Navigate into the new workflow. You will see a list of two forms. Set Sender Permissions on the upper form, Run Flow Step. To do this, click the left most button. Ensure the form is accessible by selecting <b>Web UI</b> and then <b>Sender Permissions</b>. Add users or roles who can access the form. We recommend allowing all those with _Full Access User_ and _Developer_ roles to use the form. 
+
 	<kbd>  <img src="/media/sender_permissions.png" width="350"> </kbd>
+
+The lower form, **Results**, is triggered by the upper form. To deploy it, choose _Enable For Web Service_.
 	
 3. OPTIONAL. By default, only the user who imports the workflow has permission to use and modify the custom steps within the workflow. We recommend broadening permissions to allow all those with the Developer role to use and/or edit the flow steps. To do this, highlight the FLOW DESIGNER just to the right of FORMS. Open the Run Flow Step flow canvas. 
 	<kbd>  <img src="/media/run_flow_step_canvas.png" width="900"> </kbd>
