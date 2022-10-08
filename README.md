@@ -45,11 +45,13 @@ This step reverses a string. Simple as that.
 
 This step joins up to five smaller strings together with an optional glue character (or characters) in-between. The output is a longer string. 
 
-*	**Split**
+*	**Banana Split**
 
 	<kbd>  <img src="/media/split.png" width="250"> </kbd>
 
 This step splits a string into two parts using a separator string. The output is two smaller strings. 
+
+N.B. No actual banana is harmed during the splitting process.
 
 *	**Is Field Populated**
 
